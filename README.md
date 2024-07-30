@@ -41,9 +41,13 @@ Test across different devices and browsers for compatibility.
 
 # Technologies used
 1.HTML
+
 2.JAVA
+
 3.PYTHON
+
 4.CSS
+
 5.JAVA SCRIPT
 
 # Conclusion
