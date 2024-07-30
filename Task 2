@@ -1,0 +1,151 @@
+/SOCIAL MEDIA PLATFORM/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color:orange;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin: 2rem;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    padding: 1rem;
+    margin-right: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    width: 75%;
+}
+
+.post {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    margin-top: 0;
+}
+
+.actions button {
+    margin-right: 1rem;
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.actions button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>My Social Media Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="sidebar">
+            <h2>Friends</h2>
+            <ul>
+                <li>Royaltharunkumar</li>
+                <img src="C:\Users\D lokesh\Pictures\Screenshots\Screenshot 2024-07-19 105609.png" alt="workplace">
+                <li>Vijay VR</li>
+                <img src="C:\Users\D lokesh\Pictures\Screenshots\Screenshot 2024-07-19 110939.png"alt="workplace">
+                <li>DeepuDeepak</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="post">
+                <h2>Royaltharunkumar</h2>
+                <img src="C:\Users\D lokesh\Pictures\Screenshots\Screenshot 2024-07-19 110619.png"alt="workplace">
+                <p>A Beautifull day</p>
+                <div class="actions">
+                    <button>Like</button>
+                    <button>Comment</button>
+                    <button>Share</button>
+                </div>
+                <div class="post">
+                    <h2>Vijay VR</h2>
+                    <img src="C:\Users\D lokesh\Pictures\Screenshots\Screenshot 2024-07-19 111239.png"alt="workplace">
+                    <p>Just had a great lunch at the new restaurant in town. Highly recommend!</p>
+                    <div class="actions">
+                        <button>Like</button>
+                        <button>Comment</button>
+                        <button>Share</button>
+                    </div>
+                    <div class="post">
+                        <h2>Deepudeepak</h2>
+                        <p>A colurful day</p>
+                        <div class="actions">
+                            <button>Like</button>
+                            <button>Comment</button>
+                            <button>Share</button>
+                        </div>
+                    
+            </div>
+            <!-- Add more posts here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Social Media Platform</p>
+    </footer>
+</body>
+</html>
