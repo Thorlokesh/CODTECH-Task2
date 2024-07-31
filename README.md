@@ -11,6 +11,8 @@ Duration: July 15 to Agust 15
 Mentor:Muzammil Ahmed
 
 # Overview of the project
+The social media platform website project involves developing an online platform where users can create profiles, connect with friends, share content, and interact with posts. The site aims to provide a robust and engaging user experience, promoting community interaction through features like messaging, posts, comments, likes, and notifications.
+
 # Objective 
 1.Facilitate Connection and Communication:
 Provide tools for users to connect with friends, family, colleagues, and new contacts.
@@ -49,6 +51,20 @@ Test across different devices and browsers for compatibility.
 4.CSS
 
 5.JAVA SCRIPT
+
+# Feautures
+1.User Connections:
+Friend request system to connect with other users.
+Follow/unfollow functionality.
+
+2.Content Sharing:
+Post text, images, videos, and links.
+Tagging friends and adding hashtags.
+Privacy settings for each post (public, friends only, private).
+
+3.Interaction Features:
+Like, comment, and share posts.
+Reactions (e.g., love, laugh, wow).
 
 # Conclusion
 
